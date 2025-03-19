@@ -286,6 +286,7 @@ printf("Cipher text: %s\n", str);
 
 return 0;
 }
+```
 
 ## OUTPUT:
 Output:
