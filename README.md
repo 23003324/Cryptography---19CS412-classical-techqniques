@@ -81,7 +81,10 @@ int main() {
 OUTPUT:
 Simulating Caesar Cipher
 
+
 ![Screenshot 2025-03-18 123900](https://github.com/user-attachments/assets/4ff774a1-94b8-469c-b3b6-4c6730eb15a5)
+
+
 
 Input : MEET ME AT THE SCHOOL
 Encrypted Message :  PHHW PH DW WKH VFKRRO  Decrypted Message : MEET ME AT THE SCHOOL
@@ -411,7 +414,9 @@ The Vigenere cipher is a method of encrypting alphabetic text by using a series 
 
 
 ## PROGRAM:
+```
 PROGRAM:
+
 #include<stdio.h> #include<string.h>
 //FunctiontoperformVigenereencryption voidvigenereEncrypt(char*text,constchar*key){ inttextLen= strlen(text);
 intkeyLen=strlen(key); for(inti =0;i< textLen;i++){ charc =text[i]; if(c>='A'&&c<='Z'){
@@ -441,15 +446,17 @@ constchar *key="KEY";//Replacewithyourdesired key
 char message[]= "Thisisasecretmessage.";//Replace withyourmessage
 //Encrypt themessage vigenereEncrypt(message,key); printf("EncryptedMessage:%s\n",message);
 //Decrypt themessage backtotheoriginal vigenereDecrypt(message,key); printf("DecryptedMessage:%s\n",message); Return 0;
-
+```
 ## OUTPUT:
 OUTPUT :
 
 Simulating Vigenere Cipher
+![Screenshot 2025-03-19 102315](https://github.com/user-attachments/assets/babdcc67-4e9d-4baf-9e19-7bd3e5a41e77)
 
 
-Input Message : SecurityLaboratory
-Encrypted Message : NMIYEMKCNIQVVROWXC Decrypted Message : SECURITYLABORATORY
+Input Message : SAVEETHA ENGINEERING COLLEGE
+Encrypted Message :  ZAMMRBOA MAOPNVMEQUG KBTSEXM 
+Decrypted Message : SAVEETHA ENGINEERING COLLEGE
 ## RESULT:
 The program is executed successfully
 
