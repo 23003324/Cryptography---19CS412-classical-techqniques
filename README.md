@@ -114,6 +114,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ALGORITHM DESCRIPTION:
+
 The Playfair cipher uses a 5 by 5 table containing a key word or phrase. To generate the key table, first fill the spaces in the table with the letters of the keyword, then fill the remaining spaces with the rest of the letters of the alphabet in order (usually omitting "Q" to reduce the alphabet to fit; other versions put both "I" and "J" in the same space). The key can be written in the top rows of the table, from left to right, or in some other pattern, such as a spiral beginning in the upper-left-hand corner and ending in the centre.
 The keyword together with the conventions for filling in the 5 by 5 table constitutes the cipher key. To encrypt a message, one would break the message into digrams (groups of 2 letters) such that, for example, "HelloWorld" becomes "HE LL OW OR LD", and map them out on the key table. Then apply the following 4 rules, to each pair of letters in the plaintext:
 1.	If both letters are the same (or only one letter is left), add an "X" after the first letter. Encrypt the new pair and continue. Some   
@@ -129,6 +130,7 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -287,7 +289,8 @@ return 0;
 
 ## OUTPUT:
 Output:
-Key text: Monarchy Plain text: instruments Cipher text: gatlmzclrqtx
+Key text: haritha Plain text: saveetha Cipher text: gatlmzclrqtx
+![Screenshot 2025-03-19 100547](https://github.com/user-attachments/assets/34155e2a-8371-468c-97e0-4e0a4b4ad870)
 
 ## RESULT:
 The program is executed successfully
