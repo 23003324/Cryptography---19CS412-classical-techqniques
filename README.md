@@ -87,7 +87,10 @@ Simulating Caesar Cipher
 
 
 Input : MEET ME AT THE SCHOOL
-Encrypted Message :  PHHW PH DW WKH VFKRRO  Decrypted Message : MEET ME AT THE SCHOOL
+
+Encrypted Message :  PHHW PH DW WKH VFKRRO 
+
+Decrypted Message : MEET ME AT THE SCHOOL
 
 ## RESULT:
 The program is executed successfully
@@ -295,7 +298,11 @@ return 0;
 
 
 
-Key text: haritha Plain text: saveetha Cipher text: gatlmzclrqtx
+Key text: haritha 
+
+Plain text: saveetha
+
+Cipher text: gatlmzclrqtx
 
 
 ![Screenshot 2025-03-19 100547](https://github.com/user-attachments/assets/34155e2a-8371-468c-97e0-4e0a4b4ad870)
@@ -423,8 +430,11 @@ Simulating Hill Cipher
 
 
 Input Message : haritha
+
 Padded Message : HARITHAXX
+
 Encrypted Message :  PWYIJBOLR
+
 Decrypted Message : HARITHAXX
 ## RESULT:
 The program is executed successfully
@@ -601,8 +611,11 @@ int main() {
 ![Screenshot 2025-03-19 104633](https://github.com/user-attachments/assets/f8640831-d019-4d7f-96d6-0b2c5d6eb012)
 
 Enter a Secret Message hijack
+
 Enter number of rails 2
+
 Encrypted Message:
+
 hjciak
 
 
